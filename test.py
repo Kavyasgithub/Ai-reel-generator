@@ -4,7 +4,7 @@ import os
 import google.generativeai as genai
 
 # Configure Gemini API
-genai.configure(api_key="AIzaSyBhPg0WTncWMf48jCKARQQhG68pWBIcVrw")
+genai.configure(api_key="Gemini API key")
 
 # Generate script using Gemini
 def generate_voiceover_script():
