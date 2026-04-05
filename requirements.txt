@@ -1,0 +1,26 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# AI Reels Generator — Python Dependencies
+# ─────────────────────────────────────────────────────────────────────────────
+# Install with:
+#   pip install -r requirements.txt
+#
+# Note: torch is installed separately (see README — Step 3).
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Script generation
+google-generativeai>=0.5.0
+
+edge-tts>=6.1.9
+
+# Image generation (Stable Diffusion)
+diffusers>=0.27.0
+transformers>=4.38.0
+accelerate>=0.27.0
+Pillow>=10.0.0
+
+# Misc utilities
+numpy>=1.24.0
+
+# ── Replaces system-level installs (no sudo needed) ──────────────────────────
+imageio-ffmpeg>=0.4.9      # Bundles FFmpeg binary, no system install needed
+espeakng>=1.0.1            # eSpeak-NG Python binding for Coqui TTS
