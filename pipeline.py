@@ -26,7 +26,7 @@ from pathlib import Path
 # CONFIG  –  Edit these before running
 # ─────────────────────────────────────────────────────────────────────────────
 
-GEMINI_API_KEY = "AIzaSyBelI7_RiYhd1lt6-295I0ap0lc0mhwFf4"   # https://aistudio.google.com/
+GEMINI_API_KEY = ""   # https://aistudio.google.com/
 
 # Stable Diffusion model (downloaded automatically on first run, ~4 GB)
 SD_MODEL_ID = "runwayml/stable-diffusion-v1-5"
